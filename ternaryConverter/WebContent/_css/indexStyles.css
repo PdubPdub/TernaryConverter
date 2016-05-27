@@ -1,0 +1,95 @@
+@CHARSET "ISO-8859-1";
+ 
+@font-face {
+	font-family: bostonFont;
+	src: url(boston.ttf);
+} 
+
+@font-face {
+	font-family: impactRevFont;
+	src: url(Impact-Label-Reversed.ttf);
+}
+
+@font-face {
+	font-family: impactFont;
+	src: url(Impact-Label.ttf);
+}
+  
+body {background-color:black; 
+	  }
+
+.big-wrapper { background-color:black;
+    color:white;
+    text-align:center;
+    padding:0px;}
+
+.header-cover {color:black;
+    text-align:center;
+    color:white;
+	/*height: 40%;
+	width: 100%;*/
+	padding:150px;
+	position: relative;
+    background-image: url('../_images/bannerGreen3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;}
+    
+.header-name {background-color:black;
+	text-align:center;
+    color:white;
+    position:relative;
+    align-items: center;
+  justify-content: center;
+    right: 142px;
+    width: 0%;
+    height: 0%;
+/*     padding:0px; */
+    display:inline-block;
+    opacity: 0.7;
+    font-size:36px;
+    font-family: impactRevFont;
+
+/*     margin-top: 0px;*/
+} 
+    
+.name {
+		position:center;
+	 	font-size:30px;
+	 	display:inline-block;}
+
+    
+.navbar {background-color:black;
+	text-align:center;
+    color:white;
+    padding:20px;
+    margin: 5px;
+    font-size:28px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.category {text-align:center;
+}
+
+/* .header-section {background-image: url('../_images/banner.jpg');background-size: 100%;} */
+
+.content{margin:20px;}
+
+.ternary {
+	font-family: impactRevFont;
+	font-size:18px;
+	opacity: 0.9;
+}
+
+.aboutMe {text-align: left;
+	width: 50%;
+	margin: auto;
+	font-size:18px;
+	opacity: 0.9;}
+
+.navlink {text-decoration:none;
+	font-size:20px;
+	color:white;
+	font-family: impactRevFont;}
